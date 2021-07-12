@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Single Image WMS</title>
+    <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+    <script src="https://unpkg.com/elm-pep"></script>
+    <style>
+      .map {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>National Water Model Reaches</h3>
+    <p>
+      As you zoom into an area of interest on the map you will be able to see
+      the different reaches or streams that make up the National Water Model.
+      You can get the attribute information for a given stream, including its
+      unique id, by clicking on it.
+    </p>
+    <div id="map" class="map"></div>
+    <div id="info">&nbsp;</div>
+    <script src="main.js"></script>
+  </body>
+</html>
