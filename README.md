@@ -1,0 +1,2 @@
+# NWMfromAppwGetFInfo
+Created with CodeSandbox
